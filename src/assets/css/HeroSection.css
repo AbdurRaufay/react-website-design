@@ -1,0 +1,166 @@
+.background_img {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  position: relative;
+}
+
+.onbanner_img {
+  position: absolute;
+  height: 400px;
+  width: auto;
+  margin-top: 200px;
+  margin-left: -20px;
+}
+/* start */
+.Hero_heading {
+  position: absolute;
+  top: 100px;
+   right: 210px !important; 
+}
+.hero_main_heading{
+  font-size: 37px !important;
+}
+.hreo_text_para,
+.hero_text_green {
+  background-color: seagreen;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn_form {
+  background-color: yellow;
+  border-radius: 35px;
+ 
+}
+.form_row .right_div_para {
+  background-color: rgb(78, 133, 84);
+}
+.right_form_div {
+  margin-top: -350px;
+}
+
+.form_arrow_image {
+  width: 100px;
+}
+.fa-check {
+  color: rgb(78, 133, 84);
+}
+.form_down_arrow img {
+  height: 100px;
+  width: auto;
+}
+.left_div_para h4 {
+  color: rgb(78, 133, 84);
+}
+
+.form_bottom_text {
+  color: lightgray;
+  font-size: 10px !important;
+}
+.form_paragraph {
+  color: lightgray;
+}
+@media (max-width: 576px) {
+  .background_img {
+    opacity: 1;
+    height: 400px;
+  }
+
+  .onbanner_img {
+    display: none;
+  }
+  .Hero_heading {
+   display: none; 
+  }
+  
+}
+@media (max-width: 991.98px) {
+  .Hero_heading {
+    position: absolute;
+    top: 100px;
+    right: 140px;
+  }
+  .right_form_div {
+    margin-top: 70px;
+  }
+  .right_form_div h1 {
+    margin-bottom: 10px;
+  }
+  .background_img {
+    opacity: 0.4;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .onbanner_img {
+    position: absolute;
+    height: 325px;
+    width: auto;
+    top: 14%;
+    left: 31%;
+  }
+  .Hero_heading{
+    margin-left: 10%;
+  }
+  
+}
+@media (min-width: 768px) {
+  .onbanner_img {
+    position: absolute;
+    height: 400px;
+    width: auto;
+    top: 9%;
+    left: 21%;
+  }
+  .Hero_heading {
+    right: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .onbanner_img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    top: 12%;
+    left: 5%;
+  }
+  .right_form_div{
+    margin-left: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .onbanner_img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    top: 8%;
+    left: 12%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .onbanner_img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    top: 8%;
+    left: 17%;
+  }
+ 
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .onbanner_img {
+    position: absolute;
+    height: 360px;
+    width: auto;
+    top: 5%;
+    left: 16%;
+  }
+
+}

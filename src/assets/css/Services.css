@@ -1,0 +1,109 @@
+.circle {
+  width: 36px;
+  object-fit: contain;
+}
+.he {
+  font-size: 23px !important;
+  font-weight: 400 !important;
+  margin-left: 70px;
+  margin-top: -33px;
+}
+.mainpara {
+  font-size: 14px !important;
+  font-weight: 400;
+  color: rgb(117, 114, 114);
+}
+.para {
+  margin-left: 70px;
+  font-size: 14px !important;
+  font-weight: 400;
+  color: rgb(117, 114, 114);
+}
+
+.services_image {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+.service_image_btn {
+  margin-left: 180px;
+  margin-top: -30px;
+  background-color: yellow !important;
+  border-radius: 35px !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  -webkit-border-radius: 35px !important;
+  -moz-border-radius: 35px !important;
+  -ms-border-radius: 35px !important;
+  -o-border-radius: 35px !important;
+}
+@media screen and (max-width: 1200px) {
+  .services_image {
+    margin-left: 50px;
+  }
+  .service_image_btn {
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .services_right {
+    margin-top: 30px;
+  }
+  .services_image {
+    width: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+  }
+  .service_image_btn {
+    margin-left: 210px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service_image_btn {
+    margin-left: 160px;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* .service_image_btn {
+    margin-left: 120px;
+  } */
+  .service_image_btn {
+    margin-left: 80px;
+    font-size: 15px !important;
+    font-weight: bold !important;
+   
+  }
+  .circle {
+    width: 28px;
+  }
+  .he {
+    font-size: 20px !important;
+    margin-left: 60px;
+    
+  }
+  .para {
+    margin-left: 60px;
+    font-size: 13px !important;
+  
+  }
+}
+@media screen and (max-width: 380px) {
+  /* .service_image_btn {
+    margin-left: 120px;
+  } */
+  .service_image_btn {
+    margin-left: 50px;
+    font-size: 14px !important;
+    font-weight: bold !important;
+     }
+     .circle {
+      display: none;
+    }
+    .he{
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+    .para{
+      margin-left: 30px;
+    }
+}

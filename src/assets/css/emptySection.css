@@ -1,0 +1,28 @@
+.empty_section {
+  background-image: url("../img/Bg.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 60px;
+  height: 600px;
+}
+.emptySection_bottom {
+  margin-top: 400px;
+}
+@media screen and (max-width:1200px){
+  .empty_section {
+    
+    width: 100%;
+    
+  }
+}
+@media screen and (max-width: 992px) {
+  .empty_section {
+    margin-top: 50px;
+  }
+  .emptySection_bottom {
+    margin-top: 20px;
+  }
+}
+
